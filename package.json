@@ -1,0 +1,32 @@
+{
+  "name": "dev-tv-be",
+  "version": "1.0.0",
+  "description": "backend for Dev-TV",
+  "main": "./src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Quan-Kiu/Dev-TV-BE.git"
+  },
+  "author": "quankiu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Quan-Kiu/Dev-TV-BE/issues"
+  },
+  "homepage": "https://github.com/Quan-Kiu/Dev-TV-BE#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.2",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.7.5",
+    "nodemon": "^2.0.16"
+  }
+}
